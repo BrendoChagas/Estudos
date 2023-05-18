@@ -1,7 +1,7 @@
 # <h1>Estudos e Cursos</h1>
 Curso de HTML5, CSS3 e JavaScript
 
-Olá, neste repositoria você pode encontar os exercicios que realizei dos cursos ministrado pelo professor Gustavo Guanabara em seu canal do youtube curos em video.
+Olá! Neste repositoria você pode encontar os exercicios que realizei, dos cursos ministrado pelo professor Gustavo Guanabara em seu canal do youtube curos em video.
 Estou utilizando os seus cursos para estudar e reforçar meus conceitos nas mais diversas linguagens e seus conteudos.
 <div>
   <hr>
