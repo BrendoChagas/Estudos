@@ -3,28 +3,47 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
 }
 
 body{
     background-color: #84E1AD;
-    width: 600px;
-    margin-top: -15px;
-    margin-bottom: -10px;
-    margin-left: auto;
-    margin-right: auto;
+}
+
+body p{
+    text-indent: 15px;
 }
 
 header#cabecalho{
     background-image: linear-gradient(180deg, #3BD580, #1A5C38);
     color: white;
-    position: relative;
+    display: flex;
     height: 150px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header#cabecalho div.titulo{
+    align-items: center;
+    
+    
 }
 
 header#cabecalho ul{
     position: absolute;
+    left: 10px;
     top: 115px;
     display: flex;
+    list-style: none;
+}
+
+.titulo p{
+    text-align: center;
+    padding: 15px;
+    margin-top: 10px;
 }
 
 .menu{
@@ -38,7 +57,8 @@ header#cabecalho ul{
 
 div#corpo{
     background-color: white;
-    margin-top: -11px;
+    width: 600px;
+    margin: auto;
     padding: 10px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -46,15 +66,38 @@ div#corpo{
 
 article#extra{
     background-color: #2FA866;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin: 10px 0px;
+
 }
 
 article#extra h2{
     color: white;
+    padding: 5px;
 }
 
 article#extra div.extra{
     background-color: #C5EBD6;
+    padding: 15px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+article#extra ul#versao{
     padding: 5px;
+    list-style: square;
+    width: 100%;
+    height: 155px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+article#extra ul#versao li{
+    flex-basis: 20px;
 }
 
 footer#rodape{
