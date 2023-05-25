@@ -1,8 +1,17 @@
 @charset "UTF-8";
 
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
 body{
     background-color: black;
+    width: 600px;
+    margin: auto;
 }
+
 h1{
     color: white;
 }
