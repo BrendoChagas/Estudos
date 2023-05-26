@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
 /*
-  Em HTML é id => Em CSS é #
-  Em HTML é class => Em CSS é .
+  Em HTML é id => Em CSS é # (Somente um elemento por HTML)
+  Em HTML é class => Em CSS é . (Pode ser repetido nos seletores)
 */
 
 body{
